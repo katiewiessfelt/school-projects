@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="../../website/css/styles.css" />
+  <link rel="stylesheet" href="../../website/css/extra.css" />
+  <link rel="stylesheet" href="../css/sg_styles.css" />
+  <title>Color</title>
+  <style>
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    @media all and (max-width: 620px) {
+      .column {
+        grid-column: span 5;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="page-header">
+    <h2>php</h2>
+    <div class="table-of-contents">
+      <div class="dropdown">
+        <a>Table of Contents</a>
+        <div class="dropdown-content">
+          <a href="colorpalette.html">Color Palette</a>
+          <a href="grid.html">Grid Layout</a>
+          <a href="typography.html">Typography</a>
+          <a href="uicomponents.html" id="uicomponents" name="uicomponents">UI Components</a>
+      </div>
+      </div>
+    </div>
+  </header>
+  <h3>Color Palette</h3>
+  <div class="row">
+    <div class="column primary-color" style="box-shadow:inset 0px 0px 0px 1px black;">
+      <p><b>PRIMARY COLOR</b></p>
+      <p>#FFFFFF</p><br>
+      <p>This is the primary background color for the page, text on the header, and highlighting the user's location in
+        navigation</p>
+    </div>
+    <div class="column secondary-color">
+      <p><b>SECONDARY COLOR</b></p>
+      <p>#C1C1C1</p><br>
+      <p>This color is used as the background to bring attention to any text element such as a description</p>
+    </div>
+    <div class="column accent-color">
+      <p><b>ACCENT COLOR</b></p>
+      <p>#FF9534</p><br>
+      <p>This color is used for buttons, headings with the h3 tag, and accenting active links in navigation</p>
+    </div>
+    <div class="column accent2-color">
+      <p><b>SECONDARY ACCENT COLOR</b></p>
+      <p>#929090</p><br>
+      <p>This color is used for the main header</p>
+    </div>
+    <div class="column" style="background:#000000; color: white;">
+      <p><b>TEXT COLOR</b></p>
+      <p>#000000</p><br>
+      <p>This color is used for the main text content</p>
+    </div>
+  </div>
+</body>
+
+</html>
